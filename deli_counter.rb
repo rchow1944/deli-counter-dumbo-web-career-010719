@@ -8,5 +8,5 @@ def line(arr)
       line_str += "#{i+1}. #{name} "
     end
   end
-  puts line_str.chop
+  puts line_str
 end
