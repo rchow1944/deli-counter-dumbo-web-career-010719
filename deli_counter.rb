@@ -7,5 +7,5 @@ def line(arr)
     arr.each_with_index do |name, i|
       line_str += "#{i}. #{name}"
   end
-  line_str
+  puts line_str
 end
