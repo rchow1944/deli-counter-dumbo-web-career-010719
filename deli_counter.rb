@@ -6,6 +6,7 @@ def line(arr)
   else 
     arr.each_with_index do |name, i|
       line_str += "#{i}. #{name}"
+    end
   end
   puts line_str
 end
