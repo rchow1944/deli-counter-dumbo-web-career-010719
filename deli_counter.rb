@@ -11,3 +11,8 @@ def line(arr)
   end
   puts line_str
 end
+
+def take_a_number(arr, str)
+  arr << str
+  
+end
